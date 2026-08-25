@@ -10,7 +10,7 @@ A local desktop application for securely encrypting and decrypting files using A
 - [x] Literature Review
 - [ ] System Design
 - [ ] Implementation
-- [ ] Testing
+- [ ] Testing and Evaluation
 - [ ] Final Documentation
 
 ## Technologies
@@ -25,8 +25,10 @@ A local desktop application for securely encrypting and decrypting files using A
 
 ```text
 AES-256-GCM-File-Encryption/
-├── Documentation/
-│   ├── Project_Proposal.pdf
-│   └── Literature_Review.pdf
-├── Design/
+├──Project Proposal
+├──Literature Review
+├──System Design
+├──Implementation
+├──Testing and Evaluation
+├──Final Report
 └── README.md
