@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="aA7sqdvLIP4ri585f_17">
+    <mxGraphModel dx="2020" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EworzZI_wbjm2l0b13IV-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1100" width="850" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-4" edge="1" parent="1" source="EworzZI_wbjm2l0b13IV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EworzZI_wbjm2l0b13IV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-5" connectable="0" parent="EworzZI_wbjm2l0b13IV-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="File + Password" vertex="1">
+          <mxGeometry relative="1" x="-0.2222" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="USER" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-7" edge="1" parent="1" source="EworzZI_wbjm2l0b13IV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="EworzZI_wbjm2l0b13IV-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="170" />
+              <mxPoint x="710" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-8" connectable="0" parent="EworzZI_wbjm2l0b13IV-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Password + Salt" vertex="1">
+          <mxGeometry relative="1" x="-0.0279" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-9" edge="1" parent="1" source="EworzZI_wbjm2l0b13IV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EworzZI_wbjm2l0b13IV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-10" connectable="0" parent="EworzZI_wbjm2l0b13IV-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Input File" vertex="1">
+          <mxGeometry relative="1" x="0.2977" y="-1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1.o File Selection &amp;amp; Password Input" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="2.0 Key Derivation" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-12" edge="1" parent="1" source="EworzZI_wbjm2l0b13IV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="200" />
+              <mxPoint x="630" y="200" />
+            </Array>
+            <mxPoint x="80" y="220" as="sourcePoint" />
+            <mxPoint x="660" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-15" edge="1" parent="1" source="EworzZI_wbjm2l0b13IV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EworzZI_wbjm2l0b13IV-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-16" connectable="0" parent="EworzZI_wbjm2l0b13IV-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Ciphertext + tag" vertex="1">
+          <mxGeometry relative="1" x="-0.0556" y="-2" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="3.0 AES-256-GCM Encryption" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-18" edge="1" parent="1" source="EworzZI_wbjm2l0b13IV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EworzZI_wbjm2l0b13IV-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-19" connectable="0" parent="EworzZI_wbjm2l0b13IV-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Encrypted .enc file" vertex="1">
+          <mxGeometry relative="1" x="-0.13" y="-2" as="geometry">
+            <mxPoint x="3" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="4.0 Encrypted File Formatting" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Data Flow Diagram&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="230" x="310" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="D1: LOCAL FILE SYSTEM" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ENCRYPTION&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="395" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="DECRYPTION" vertex="1">
+          <mxGeometry height="30" width="60" x="395" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-31" edge="1" parent="1" source="EworzZI_wbjm2l0b13IV-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EworzZI_wbjm2l0b13IV-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-33" connectable="0" parent="EworzZI_wbjm2l0b13IV-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Encrypted .enc file" vertex="1">
+          <mxGeometry relative="1" x="-0.0512" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="D1: LOCAL FILE SYSTEM" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-35" edge="1" parent="1" source="EworzZI_wbjm2l0b13IV-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EworzZI_wbjm2l0b13IV-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-36" connectable="0" parent="EworzZI_wbjm2l0b13IV-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Salt" vertex="1">
+          <mxGeometry relative="1" x="-0.0303" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-37" edge="1" parent="1" source="EworzZI_wbjm2l0b13IV-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="EworzZI_wbjm2l0b13IV-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-38" connectable="0" parent="EworzZI_wbjm2l0b13IV-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Nonce + Tag + Ciphertext" vertex="1">
+          <mxGeometry relative="1" x="-0.0215" y="-2" as="geometry">
+            <mxPoint x="6" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="5.0 Encrypted File Parsing" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="6.0 Key Derivation PBKDF-2-HMAC-SHA256" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-40" edge="1" parent="1" source="EworzZI_wbjm2l0b13IV-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-41" connectable="0" parent="EworzZI_wbjm2l0b13IV-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="AES Key" vertex="1">
+          <mxGeometry relative="1" x="0.8954" as="geometry">
+            <mxPoint y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-47" edge="1" parent="1" source="EworzZI_wbjm2l0b13IV-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="EworzZI_wbjm2l0b13IV-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-49" edge="1" parent="1" source="EworzZI_wbjm2l0b13IV-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="EworzZI_wbjm2l0b13IV-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="7.0 AES-256-GCM Authentication &amp;amp; Decryption" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="USER" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-52" edge="1" parent="1" source="EworzZI_wbjm2l0b13IV-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="EworzZI_wbjm2l0b13IV-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="FAIL" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-50" edge="1" parent="1" source="EworzZI_wbjm2l0b13IV-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EworzZI_wbjm2l0b13IV-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Original File" vertex="1">
+          <mxGeometry height="60" width="120" x="275" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-51" edge="1" parent="1" source="EworzZI_wbjm2l0b13IV-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="EworzZI_wbjm2l0b13IV-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Error Message" vertex="1">
+          <mxGeometry height="60" width="120" x="485" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-48" edge="1" parent="1" source="EworzZI_wbjm2l0b13IV-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EworzZI_wbjm2l0b13IV-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SUCCESS" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="EworzZI_wbjm2l0b13IV-54" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=12;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="10" y="340" as="sourcePoint" />
+            <mxPoint x="830" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
