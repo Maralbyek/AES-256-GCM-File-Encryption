@@ -5,7 +5,6 @@
 | | |
 |---|---|
 | **Student Name** | Maralbyek Tilyek |
-| **Student ID** | AIU24102280 |
 | **Course** | Cryptography Essentials CCC2243 |
 | **Project Type** | Individual Project |
 | **Year / Semester** | Year 2, Semester 3, 2025-2026 |
