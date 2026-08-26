@@ -2,7 +2,15 @@
 
 ## Project Overview
 
-A local desktop application for securely encrypting and decrypting files using AES-256-GCM.
+A local desktop application for securely encrypting and decrypting files using AES-256-GCM authenticated encryption. This project demonstrates the practical application of modern symmetric cryptography through a user-friendly graphical interface.
+
+## Project Information
+
+| | |
+|---|---|
+| **Student** | Maralbyek Tilyek |
+| **Course** | Cryptography Essentials |
+| **Semester** | Year 2, Semester 3, 2025-2026 |
 
 ## Current Progress
 
@@ -13,13 +21,26 @@ A local desktop application for securely encrypting and decrypting files using A
 - [ ] Testing and Evaluation
 - [ ] Final Documentation
 
+## Key Features
+
+- File encryption with AES-256-GCM
+- Password-based key derivation using PBKDF2-HMAC-SHA256 (480,000 iterations)
+- Random salt and nonce generation per encryption
+- Integrity verification via authentication tags
+- Simple graphical interface using Tkinter
+- Cross-platform support (Windows, macOS, Linux)
+
 ## Technologies
 
-- Python
-- Tkinter
-- AES-256-GCM
-- PBKDF2-HMAC-SHA256
-- Git & GitHub
+| Component | Technology |
+|-----------|------------|
+| Programming Language | Python 3.10+ |
+| GUI Framework | Tkinter |
+| Cryptography Library | Python cryptography package |
+| Encryption | AES-256-GCM |
+| Key Derivation | PBKDF2-HMAC-SHA256 |
+| Testing | pytest |
+| Version Control | Git and GitHub |
 
 ## Project Structure
 
@@ -49,12 +70,12 @@ AES-256-GCM-File-Encryption/
 │   └── README.md
 │
 ├── Implementation/
-│   └── (source code soon )
+│   └── (source code)
 │
 ├── Testing and Evaluation/
-│   └── (test reports soon )
+│   └── (test reports)
 │
 ├── Final Report/
-│   └── (final report soon )
+│   └── (final documentation)
 │
 └── README.md
