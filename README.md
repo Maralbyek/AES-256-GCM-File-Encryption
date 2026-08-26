@@ -279,7 +279,6 @@ AES-256-GCM-File-Encryption/
 │
 ├── System Design/
 │   ├── PDF/
-│   │   ├── AES_Secure_File_Encryption_System_Design_Report.pdf
 │   │   ├── Figure1_UseCaseDiagram.drawio.pdf
 │   │   ├── Figure2_DataFlowDiagram.drawio.pdf
 │   │   └── Figure3_ApplicationWorkflow.drawio.pdf
@@ -289,6 +288,7 @@ AES-256-GCM-File-Encryption/
 │   │   ├── Figure2_DataFlowDiagram.drawio.xml
 │   │   └── Figure3_ApplicationWorkflow.drawio.xml
 │   │
+│   ├── AES_Secure_File_Encryption_System_Design_Report.pdf
 │   └── README.md
 │
 ├── Implementation/
