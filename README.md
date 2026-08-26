@@ -8,7 +8,7 @@ A local desktop application for securely encrypting and decrypting files using A
 
 - [x] Project Proposal
 - [x] Literature Review
-- [ ] System Design
+- [x] System Design
 - [ ] Implementation
 - [ ] Testing and Evaluation
 - [ ] Final Documentation
