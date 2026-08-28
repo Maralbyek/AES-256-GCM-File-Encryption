@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AES Vault</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+	<div class="tech-scene" aria-hidden="true"><div class="scene-orbit orbit-a"></div><div class="scene-orbit orbit-b"></div><div class="scene-orbit orbit-c"></div><div class="scene-orbit orbit-d"></div><div class="cube cube-a"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="cube cube-b"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="cube cube-c"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="scene-node node-a"></div><div class="scene-node node-b"></div><div class="scene-node node-c"></div><div class="data-stream stream-a">010 011 101 001 110 100</div><div class="data-stream stream-b">110 001 010 111 100 011</div></div>
+	<main class="app-shell">
+		<header class="topbar">
+			<a class="brand" href="/" aria-label="AES Vault home"><span class="brand-mark">✦</span><span>AES <b>VAULT</b></span></a>
+			<div class="secure-chip"><span class="pulse"></span> LOCAL &amp; SECURE</div>
+		</header>
+
+		<section class="hero">
+			<div class="hero-copy reveal"><p class="eyebrow">PRIVATE FILE PROTECTION</p><h1>Your files.<br><em>Only yours.</em></h1><p class="lede">Military-grade AES-256-GCM encryption in a calm, beautifully simple workspace.</p></div>
+			<div class="hero-orbit" aria-hidden="true"><div class="orbit-ring ring-one"></div><div class="orbit-ring ring-two"></div><div class="orbit-core">✦</div></div>
+		</section>
+
+		<section class="workspace reveal delay-one">
+			<div class="workspace-head"><div><p class="eyebrow">SECURE WORKSPACE</p><h2>Protect something</h2></div><div class="vault-status"><span class="status-dot"></span><div><b>Vault online</b><small>AES-256-GCM · local only</small></div></div><div class="mode-switch" role="group" aria-label="Operation"><button class="mode active" data-mode="encrypt">Encrypt</button><button class="mode" data-mode="decrypt">Decrypt</button></div></div>
+			<form id="vault-form">
+				<div id="drop-zone" class="drop-zone"><input id="file-input" type="file" hidden><div class="drop-icon">↥</div><h3 id="drop-title">Drop a file here</h3><p>or <button type="button" id="browse" class="text-button">browse from your computer</button></p><div id="file-detail" class="file-detail hidden"></div></div>
+				<div class="form-grid">
+					<label class="field"><span>Password</span><div class="input-wrap"><input id="password" type="password" autocomplete="new-password" placeholder="Enter a strong passphrase" required><button type="button" class="eye" data-target="password" aria-label="Show password">◉</button></div><div class="strength"><span id="strength-bar"></span></div><small id="strength-text">Use 12+ characters for a stronger vault key</small></label>
+					<label class="field confirm-field"><span>Confirm password</span><div class="input-wrap"><input id="confirm" type="password" autocomplete="new-password" placeholder="Repeat your passphrase"><button type="button" class="eye" data-target="confirm" aria-label="Show password">◉</button></div><small id="confirm-text">Required for encryption</small></label>
+				</div>
+				<div class="action-row"><p class="privacy-note"><span>⌁</span> Your file never leaves this device</p><button class="primary" id="submit" type="submit"><span id="submit-label">Encrypt file</span><span class="arrow">↗</span></button></div>
+			</form>
+			<div id="processing" class="processing hidden"><div class="processing-orbit"><span></span><span></span><span></span><b>✦</b></div><div><strong id="processing-title">Securing your file</strong><small id="processing-detail">AES-256-GCM is working locally</small></div><div class="processing-lines"><i></i><i></i><i></i><i></i><i></i></div></div>
+			<div id="status" class="status" role="status"></div>
+		</section>
+
+		<footer><span>AES-256-GCM</span><span class="dot"></span><span>PBKDF2-SHA256</span><span class="dot"></span><span>AUTHENTICATED LOCALLY</span></footer>
+	</main>
+	<script src="/app.js"></script>
+</body>
+</html>
