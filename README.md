@@ -52,7 +52,7 @@ To design, implement, and evaluate a user-friendly desktop tool that encrypts an
 | 2 | Design complete application workflow with diagrams |
 | 3 | Implement secure key derivation using PBKDF2-HMAC-SHA256 with per-file salt |
 | 4 | Implement AES-256-GCM encryption with unique random nonces |
-| 5 | Build a Tkinter GUI with file selection, masked password entry, and status messages |
+| 5 | HTML, CSS, and JavaScript, served locally by a Python HTTP server with file selection, masked password entry, and status messages |
 | 6 | Test systematically across file types, sizes, and security scenarios |
 | 7 | Document design, implementation, threat model, and test results |
 
@@ -87,7 +87,7 @@ To design, implement, and evaluate a user-friendly desktop tool that encrypts an
 | Component | Technology | Purpose |
 |-----------|------------|---------|
 | Programming Language | Python 3.10+ | Application development |
-| GUI Framework | Tkinter | Graphical user interface |
+| GUI Framework | HTML, CSS, JS | Graphical user interface |
 | Cryptography Library | Python cryptography package | AES-GCM and PBKDF2 operations |
 | Encryption | AES-256-GCM | Authenticated encryption |
 | Key Derivation | PBKDF2-HMAC-SHA256, 480,000 iterations | Password to AES key conversion |
@@ -105,7 +105,7 @@ The application follows a layered logical structure:
 
 | Layer | Responsibility |
 |-------|----------------|
-| **Presentation Layer** | Tkinter GUI, file selection, password entry, progress/status messages |
+| **Presentation Layer** | HTML, CSS, JS GUI, file selection, password entry, progress/status messages |
 | **Application Layer** | Workflow control, validation, temporary-file handling, success/failure decisions |
 | **Cryptographic Layer** | PBKDF2, AES-GCM, secure random generation |
 | **File Layer** | Encrypted file formatting and parsing |
