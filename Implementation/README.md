@@ -1,7 +1,7 @@
 # AES Vault
 
 A local browser-based file encryption and decryption tool using AES-256-GCM authenticated encryption. The application runs a Python backend locally and provides a web interface through the browser.
-<img width="443" height="402" alt="image" src="https://github.com/user-attachments/assets/712ff766-15b6-4d40-a261-65ed78f01739" />
+<img width="1143" height="1102" alt="image" src="https://github.com/user-attachments/assets/712ff766-15b6-4d40-a261-65ed78f01739" />
 
 
 ## Features
