@@ -292,7 +292,20 @@ AES-256-GCM-File-Encryption/
 │   └── README.md
 │
 ├── Implementation/
-│   └── (source code)
+│   └── Code/
+│       ├── aes_tool/
+│       │   ├── __init__.py
+│       │   ├── app.py
+│       │   ├── crypto_engine.py
+│       │   └── database.py
+│       ├── frontend/
+│       │   ├── index.html
+│       │   ├── app.js
+│       │   └── styles.css
+│       ├── tests/
+│       │   └── test_crypto_engine.py
+│       ├── aes_vault.db
+│       └── Launch AES Vault.vbs
 │
 ├── Testing and Evaluation/
 │   └── (test reports)
