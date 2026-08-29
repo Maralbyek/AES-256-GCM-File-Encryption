@@ -99,11 +99,16 @@ def main() -> None:
     parser.add_argument("--port", type=int, default=8765)
     args = parser.parse_args()
     server = ThreadingHTTPServer(("127.0.0.1", args.port), VaultHandler)
+    server.allow_reuse_address = True
     url = f"http://127.0.0.1:{args.port}"
     print(f"AES Vault running at {url}")
-    webbrowser.open(url)
+    if not webbrowser.open(url):
+        print(f"Could not open browser automatically. Please visit {url} manually.")
     try:
         server.serve_forever()
+    except OSError as e:
+        print(f"Port {args.port} already in use. Try: python -m aes_tool.app --port {args.port + 1}")
+        raise
     except KeyboardInterrupt:
         pass
     finally:
