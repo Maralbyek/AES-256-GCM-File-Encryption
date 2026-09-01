@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: aes-vault
+    env: python
+    plan: free
+    region: oregon
+    buildCommand: cd Code && pip install -r requirements.txt
+    startCommand: cd Code && python -m aes_tool.app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: AUTO_OPEN_BROWSER
+        value: "0"
