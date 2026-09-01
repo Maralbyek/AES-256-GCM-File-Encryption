@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import os
 import mimetypes
 import tempfile
 import webbrowser
@@ -96,18 +97,24 @@ class VaultHandler(BaseHTTPRequestHandler):
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="AES-256-GCM file encryption tool")
-    parser.add_argument("--port", type=int, default=8765)
+    parser.add_argument("--host", default=os.getenv("HOST", "0.0.0.0"))
+    parser.add_argument("--port", type=int, default=int(os.getenv("PORT", "8765")))
     args = parser.parse_args()
-    server = ThreadingHTTPServer(("127.0.0.1", args.port), VaultHandler)
+    host = args.host
+    port = args.port
+    server = ThreadingHTTPServer((host, port), VaultHandler)
     server.allow_reuse_address = True
-    url = f"http://127.0.0.1:{args.port}"
+    url = f"http://{host}:{port}"
     print(f"AES Vault running at {url}")
-    if not webbrowser.open(url):
-        print(f"Could not open browser automatically. Please visit {url} manually.")
+    if os.getenv("AUTO_OPEN_BROWSER", "0") == "1":
+        try:
+            webbrowser.open(url)
+        except Exception:
+            print(f"Could not open browser automatically. Please visit {url} manually.")
     try:
         server.serve_forever()
-    except OSError as e:
-        print(f"Port {args.port} already in use. Try: python -m aes_tool.app --port {args.port + 1}")
+    except OSError:
+        print(f"Port {port} already in use on {host}. Try a different port or stop the old process.")
         raise
     except KeyboardInterrupt:
         pass
