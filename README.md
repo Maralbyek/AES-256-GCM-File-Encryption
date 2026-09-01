@@ -10,7 +10,6 @@ A local desktop application for securely encrypting and decrypting files using A
 |---|---|
 | **Student** | Maralbyek Tilyek |
 | **Course** | Cryptography Essentials |
-| **Semester** | Year 2, Semester 3, 2025-2026 |
 
 ---
 
