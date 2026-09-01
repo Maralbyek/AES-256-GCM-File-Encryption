@@ -1,5 +1,7 @@
 # AES-256-GCM File Encryption Tool
 
+## App is live here
+https://aes-256-gcm-file-encryption-ejbg.onrender.com/
 ## Project Overview
 
 A local desktop application for securely encrypting and decrypting files using AES-256-GCM authenticated encryption. This project demonstrates the practical application of modern symmetric cryptography through a user-friendly graphical interface, bridging the gap between cryptographic theory and usable end-user applications.
