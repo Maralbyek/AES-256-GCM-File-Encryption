@@ -32,7 +32,7 @@ A local browser-based file encryption and decryption tool using AES-256-GCM auth
 | Testing | pytest |
 | Launcher | Windows VBScript |
 
-## Encryption
+## Overall Appearance
 
 <img width="1143" height="1102" alt="image" src="https://github.com/user-attachments/assets/712ff766-15b6-4d40-a261-65ed78f01739" />
 
