@@ -265,6 +265,11 @@ The design assumes an attacker who may obtain a full copy of the encrypted file 
 
 ---
 
+
+## Database Configuration Appearance
+<img width="1312" height="784" alt="kxmlu" src="https://github.com/user-attachments/assets/0f488698-0836-4d6d-9645-ebe3b55b59b8" />
+
+
 ## Project Structure
 
 ```text
