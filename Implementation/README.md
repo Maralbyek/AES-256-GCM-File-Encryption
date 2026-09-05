@@ -35,6 +35,15 @@ A local browser-based file encryption and decryption tool using AES-256-GCM auth
 ## Overall Appearance
 
 <img width="1143" height="1102" alt="image" src="https://github.com/user-attachments/assets/712ff766-15b6-4d40-a261-65ed78f01739" />
+<br>
+
+## Decryption
+<img width="1143" height="1102" alt="image" src="https://github.com/user-attachments/assets/a4fe6446-6116-4322-b34c-c763129d390b" />
+
+<br>
+## Database
+<img width="1312" height="784" alt="kxmlu" src="https://github.com/user-attachments/assets/0f488698-0836-4d6d-9645-ebe3b55b59b8" />
+
 
 ## Project Structure
 
