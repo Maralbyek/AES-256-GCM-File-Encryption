@@ -6,14 +6,6 @@ https://aes-256-gcm-file-encryption-ejbg.onrender.com/
 
 A local desktop application for securely encrypting and decrypting files using AES-256-GCM authenticated encryption. This project demonstrates the practical application of modern symmetric cryptography through a user-friendly graphical interface, bridging the gap between cryptographic theory and usable end-user applications.
 
-## Project Information
-
-| | |
-|---|---|
-| **Student** | Maralbyek Tilyek |
-| **Course** | Cryptography Essentials |
-
----
 
 ## Current Progress
 
@@ -22,7 +14,7 @@ A local desktop application for securely encrypting and decrypting files using A
 - [x] System Design
 - [x] Implementation
 - [x] Testing and Evaluation
-- [ ] Final Documentation
+- [x] Final Documentation
 
 ---
 
